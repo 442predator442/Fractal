@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Fractal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="place-counter_container">
+            <h1 class="place-counter">Добавлено точок: <input id="count" value="0" disabled /></h1>
+        </div>
+        <div class="place-container">
+            <canvas id="place-content" width="500px" height="500px"></canvas>
+        </div>
+        <div class="btns">
+            <button class="btn start" id="start" onclick="start()">Запустити</button>
+            <button class="btn stop" id="stop" onclick="stop()">Зупинити</button>
+            <button class="btn reset" id="reset" onclick="reset()">Скинути</button>
+        </div>
+    </div>
+    <script language="JavaScript" src="./js/index.js"></script>
+</body>
+</html>
